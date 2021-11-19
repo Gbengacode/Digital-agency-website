@@ -118,7 +118,8 @@
   }
 
   header > .main-nav > .logo {
-    margin: 5px;
+    margin-top: 12px;
+    padding: 0;
   }
 
   header > .main-nav > .logo > a > img {
@@ -191,6 +192,7 @@
 
   footer > .footer-container > .img-container {
     padding: 10px;
+    margin-top: 10px;
   }
 
   main > .landing-page .intro-text {
@@ -217,8 +219,9 @@
 
   footer > .footer-container {
     display: flex;
-    gap: 450px;
+    gap: 100px;
     padding: 10px;
+    margin-left: 25%;
   }
 
   main > .landing-page > .intro-text > p {
@@ -318,6 +321,18 @@
     box-shadow:
       0 8px 16px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main > .programs > .program-list > .small-card h3 {
+    text-align: center;
+  }
+
+  main > .programs > .program-list > .small-card p {
+    text-align: center;
   }
 
   main > .services > .service-list > .card {

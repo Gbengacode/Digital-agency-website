@@ -39,6 +39,10 @@
     display: none;
   }
 
+  ul {
+    list-style: none;
+  }
+
   .small-menu {
     background-color: #ec5242;
     opacity: 0.8;
@@ -91,6 +95,10 @@
     top: 0;
     left: 0;
     right: 0;
+  }
+
+  .bar {
+    margin-left: -10px;
   }
 
   header > .top-nav {

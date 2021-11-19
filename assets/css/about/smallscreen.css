@@ -39,6 +39,10 @@
     display: none;
   }
 
+  .bar {
+    margin-left: 20px;
+  }
+
   .small-menu {
     background-color: #ec5242;
     opacity: 0.8;
