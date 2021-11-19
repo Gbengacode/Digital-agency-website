@@ -44,7 +44,7 @@ As for the installation, follow these steps!
 - Download ZIP-archive to your PC
 - Unpack the archive
 - Open the index.html file
-- Use the site!
+- Use the site
 
 ## Author
 👤 **Author**
