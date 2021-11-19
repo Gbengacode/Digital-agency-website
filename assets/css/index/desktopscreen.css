@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap");
+
+@media only screen and (min-width: 992px) {
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+
+  @font-face {
+    font-family: 'Cocogoose';
+    src: url("../../font/cocoogose/Cocogoose\ Pro-trial.ttf");
+  }
+
+  @font-face {
+    font-family: 'Cocogoose2';
+    src: url("../../font/cocoogose/Cocogoose\ Pro\ Light-trial.ttf");
+  }
+
+  :root {
+    --primary-text-color: rgb(236, 82, 66);
+    --secondary-grey-color: #d3d3d3;
+    --tertiary-dark-color: #272a31;
+    --secondary-bg-color: #d3d3d3;
+    --primary-background-color: #ec5242;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .small-menu {
+    display: none;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  header > .top-nav > nav {
+    background: var(--tertiary-dark-color);
+  }
+
+  header > .top-nav > nav > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+
+  header > .top-nav > nav > ul > li {
+    padding: 10px 20px;
+  }
+
+  main > .programs > a {
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--secondary-bg-color);
+    background: none;
+    padding: 20px 40px;
+    color: var(--primary-text-color);
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  header > .main-nav > nav > ul > li > a {
+    text-decoration: none;
+    color: var(--tertiary-dark-color);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  header > .top-nav > nav > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  header > .main-nav > nav > ul > li {
+    padding: 20px 40px;
+  }
+
+  main > .programs > a:hover {
+    background: var(--primary-text-color);
+    color: #fff;
+  }
+
+  header > .main-nav {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    box-shadow:
+      0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  header > .main-nav > nav > ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  header > .main-nav > .logo {
+    margin: 5px;
+  }
+
+  header > .main-nav > .logo > a > img {
+    width: 100%;
+  }
+
+  main > .services {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  main > .services > h2 {
+    font-family: "Cocogoose2", sans-serif;
+    font-size: 30px;
+    color: var(--tertiary-dark-color);
+    text-align: center;
+    position: relative;
+  }
+
+  main > .services > h2::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--primary-background-color);
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    right: 0;
+    left: 0;
+    margin: -10px auto;
+  }
+
+  main > .services > .service-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header > .main-nav > nav > ul > .quote > a {
+    background: #fff;
+    padding: 10px 20px;
+    border: 4px solid var(--primary-background-color);
+  }
+
+  header > .main-nav > nav > ul > li a:hover {
+    background: var(--tertiary-dark-color);
+    color: #fff;
+  }
+
+  header > .main-nav > nav > ul > .quote > a:hover {
+    color: #fff;
+    background: var(--primary-background-color);
+  }
+
+  main > .landing-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("../../img/background/bg2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  footer > .footer-container > p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--tertiary-dark-color);
+  }
+
+  footer > .footer-container > .img-container {
+    padding: 10px;
+  }
+
+  main > .landing-page .intro-text {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+  }
+
+  main > .landing-page .intro-text span {
+    /* font-family: 'Cocogoose' sans-serif; */
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+  }
+
+  main > .landing-page .intro-text h1 {
+    font-family: Cocogoose, sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+
+  footer > .footer-container {
+    display: flex;
+    gap: 450px;
+    padding: 10px;
+  }
+
+  main > .landing-page > .intro-text > p {
+    color: #fff;
+    font-size: 1rem;
+  }
+
+  main > .landing-page > .intro-text > .small-text {
+    max-width: 400px;
+    background: linear-gradient(rgb(236, 82, 66, 0.5), rgb(236, 82, 66, 0.5));
+    padding: 10px;
+  }
+
+  main > .landing-page > .intro-text > .small-text > p {
+    color: var(--secondary-grey-color);
+    line-height: 20px;
+    font-size: 1rem;
+  }
+
+  main > .programs h2 {
+    font-family: "Cocogoose2", sans-serif;
+    font-size: 30px;
+    color: var(--secondary-grey-color);
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  main > .programs > h2::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--primary-background-color);
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    right: 0;
+    left: 0;
+    margin: -10px auto;
+  }
+
+  main > .partners > h2 {
+    font-family: Cocogoose2, sans-serif;
+    font-size: 30px;
+    color: var(--secondary-grey-color);
+    text-align: center;
+    position: relative;
+  }
+
+  main > .partners > h2::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--primary-background-color);
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    right: 0;
+    left: 0;
+    margin: -10px auto;
+  }
+
+  main > .partners > .partner-list ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  main > .partners > .partner-list ul li {
+    padding: 40px;
+  }
+
+  main > .landing-page > .intro-text > h2 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  main > .programs {
+    display: flex;
+    flex-direction: column;
+    background: #333;
+  }
+
+  main > .programs > .program-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: space-around;
+  }
+
+  main > .programs > .program-list > .small-card {
+    margin: 20px;
+    background-color: #4d3939;
+    opacity: 0.8;
+    padding: 20px;
+    color: var(--secondary-grey-color);
+    box-shadow:
+      0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  main > .services > .service-list > .card {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+
+  main > .services > .service-list > .card > .card-body h3 {
+    font-size: 18px;
+    color: var(--tertiary-dark-color);
+    text-align: left;
+    margin-bottom: -5px;
+  }
+
+  main > .services > .service-list > .card > .card-body > :nth-child(2) {
+    font-size: 18px;
+    color: var(--primary-text-color);
+    text-align: left;
+    font-style: italic;
+    position: relative;
+  }
+
+  main > .services > .service-list > .card > .card-body > :nth-child(2)::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid var(--tertiary-dark-color);
+    top: 0;
+    bottom: 0;
+    width: 10%;
+    right: 0;
+    left: 0;
+    margin: -10px 5px;
+  }
+
+  main > .services > .service-list > .card > .card-body > :nth-child(3) {
+    font-size: 16px;
+    color: var(--tertiary-dark-color);
+    line-height: 30px;
+  }
+
+  main > .services > button {
+    display: none;
+  }
+
+  main > .services > .service-list > .card > .card-img {
+    display: flex;
+  }
+
+  main > .services > .service-list > .card > .card-img > img {
+    width: 100%;
+  }
+
+  main > .partners {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: var(--tertiary-dark-color);
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,6 +1,12 @@
 
 # Project Name
-E-learning website
+Digital Agency Website
+
+
+![screenshot](./assets/img/screenshots/indexs.png)
+![screenshot](./assets/img/screenshots/indexl.png)
+![screenshot](./assets/img/screenshots/abouts.png)
+![screenshot](./assets/img/screenshots/aboutl.png)
 
 
 ## Built With
@@ -34,6 +40,11 @@ To get a local copy up and running follow these simple example steps.
 [Linkedin](https://www.linkedin.com/in/emmanuel-gbenga/)
 
 
+👤 **Author**
+
+ Creative Commons license of the design
+
+ 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
