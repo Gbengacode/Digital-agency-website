@@ -16,6 +16,9 @@ This site was built as the Capstone project for Module 1 of the Microverse curri
 - JAVASCRIPT
 
 
+## Live Demo
+
+[View Demo](https://gbengacode.github.io/Digital-agency-website/)
 
 ## Getting Started
 
