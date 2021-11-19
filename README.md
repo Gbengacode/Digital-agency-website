@@ -34,7 +34,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 
-You can use this site both with and without installing the necessary files on your local Personal computer. 
+You can use this site both with and without installing the necessary files on your local PC. 
 
 If you want to see how it works without any installation, visit live demo link
 
