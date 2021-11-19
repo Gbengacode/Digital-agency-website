@@ -1,6 +1,8 @@
 
 # Project Name
 Digital Agency Website
+
+# About project
 This site was built as the Capstone project for Module 1 of the Microverse curriculum.
 
 ![screenshot](./assets/img/screenshots/indexs.png)
