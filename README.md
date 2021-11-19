@@ -38,7 +38,7 @@ You can use this site both with and without installing the necessary files on yo
 
 If you want to see how it works without any installations, visit live demo link
 
-As for the installation, follow these steps!
+As for the installation, follow these steps
 
 - Open the repository
 - Download ZIP-archive to your PC
