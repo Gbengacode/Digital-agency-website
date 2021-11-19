@@ -36,15 +36,15 @@ To get a local copy up and running follow these simple example steps.
 
 You can use this site both with and without installing the necessary files on your local PC. 
 
-If you want to see how it works without any installations, visit live demo link
+If you want to see how it works without any installation, visit live demo link
 
-As for the installation, follow these steps!
+As for the installation, follow these steps
 
 - Open the repository
 - Download ZIP-archive to your PC
 - Unpack the archive
 - Open the index.html file
-- Use the site!
+- Use the site
 
 ## Author
 👤 **Author**
