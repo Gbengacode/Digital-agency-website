@@ -22,6 +22,11 @@ This site was built as the Capstone project for Module 1 of the Microverse curri
 
 [View Demo](https://gbengacode.github.io/Digital-agency-website/)
 
+
+## Video Demo
+[Click here to watch the video (recorded using Loom)](https://www.loom.com/share/4b54407681f5498291961b4c147bd1f0)
+
+
 ## Getting Started
 
 
